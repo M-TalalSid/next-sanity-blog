@@ -44,7 +44,7 @@ const CommentSec = () => {
         <div className="mb-6">
           <input
             type="text"
-            placeholder="Enter your username"
+            placeholder="Enter Your Username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             className="w-full p-3 border border-gray-400 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
@@ -53,7 +53,7 @@ const CommentSec = () => {
         
         <div className="mb-6">
           <textarea
-            placeholder="Write your comment"
+            placeholder="Write Your Comment"
             value={comment}
             onChange={(e) => setComment(e.target.value)}
             className="w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
