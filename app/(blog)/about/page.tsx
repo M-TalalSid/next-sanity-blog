@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import tasweer from "../../../public/profile.jpg";
 import Image from 'next/image';
 
 const About = () => {
@@ -8,8 +9,8 @@ const About = () => {
       {/* Left Section for Image */}
       <div className="w-full md:w-1/2 flex justify-center">
         <Image width={1000} height={1000}
-          src="/profile.jpg" // Replace this with your image path
-          alt="Talal Shoaib"
+          src={tasweer} // Replace this with your image path
+          alt="tasweer"
           className="rounded-md h-2/4 w-2/4"
         />
       </div>
