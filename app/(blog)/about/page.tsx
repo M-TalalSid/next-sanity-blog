@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import tasweer from "../../../public/profile.jpg";
+import tasweer from "../../../public/profile.png";
 import Image from 'next/image';
 
 const About = () => {
